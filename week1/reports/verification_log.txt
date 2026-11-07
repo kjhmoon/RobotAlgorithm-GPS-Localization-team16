@@ -33,3 +33,4 @@ Report: 5 pages; all six questions, Korean glyph coverage and text bounds checke
 Report images and numeric examples are illustrative, not measured GPS results.
 
 Revision: removed the bibliography and all numeric inline citation markers.
+Preserved the remote introduction update; current introduction length is 84 characters.
