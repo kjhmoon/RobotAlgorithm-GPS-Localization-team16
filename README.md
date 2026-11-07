@@ -7,7 +7,7 @@
 - 팀 번호: 16
 - GitHub ID: kjhmoon
 - 저장소 이름: `RobotAlgorithm-GPS-Localization-team16`
-- 현재 단계: 1주차 환경 확인 및 제출 구조 준비
+- 현재 단계: 기본 파일 업로드 및 clone 검증 완료, 1주차 보고서 작성 준비
 
 ## 실행
 
@@ -30,13 +30,13 @@ python week1/src/check_environment.py
 주차 제출 전에 작업 코드를 해당 주차의 `src/`에 복사하고,
 해당 주차의 README와 보고서를 실제 결과에 맞게 갱신합니다.
 
-## 1주차 남은 작업
+## 1주차 진행 상황
 
 - [x] 개인 제출에 사용할 팀 번호 확인: 16
 - [x] GitHub ID를 `team.md`에 기입: kjhmoon
-- [ ] 지정 이름의 GitHub 저장소 생성 및 본인 계정으로 commit/push
-- [ ] GitHub 웹페이지에서 업로드 확인
-- [ ] 새 폴더에 clone 또는 다운로드 후 파일과 실행 확인
+- [x] 지정 이름의 GitHub 저장소 생성 및 본인 계정으로 commit/push
+- [x] GitHub 웹페이지에서 업로드 확인
+- [x] 새 폴더에 clone 후 파일과 실행 확인
 - [ ] Arduino IDE 2.x 설치/버전 확인
 - [ ] 아래 배경지식 6문항의 보고서 작성
 - [ ] Git 과정의 실제 결과와 확인 자료를 보고서에 포함
@@ -52,4 +52,5 @@ python week1/src/check_environment.py
 5. Localization 문제를 푸는 이유와 대응하는 현실 문제
 6. Occupancy grid map의 개념과 센서 측정으로 만드는 방법
 
-GitHub 업로드, 다운로드 검증, Arduino IDE 확인은 아직 완료하지 않았습니다.
+GitHub 업로드와 새 폴더 clone 후 실행 검증은 완료했습니다.
+Arduino IDE 확인과 최종 보고서 작성은 아직 남아 있습니다.

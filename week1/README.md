@@ -28,3 +28,20 @@ GPS 처리 및 필터 코드는 이후 과제 안내에 따라 추가합니다.
 `reports/`에 Git 실습 결과와 배경지식 6문항의 보고서를 작성해야 합니다.
 보고서 이름은 `team16_week1.pdf` 등 안내에 맞는 이름을 사용합니다.
 보고서 그림은 `reports/figures/`에 저장합니다.
+
+## Git 실습 확인 기록
+
+- 저장소: https://github.com/kjhmoon/RobotAlgorithm-GPS-Localization-team16
+- 브랜치: `main`
+- 초기 업로드 커밋: `27b94b5b8c97559c1c3a687849b7703e2a86d415`
+- 커밋 작성자: 공지혁 (`163113764+kjhmoon@users.noreply.github.com`)
+- GitHub 웹페이지에서 필수 폴더, 자기소개, `team.md`가 표시되는 것을 확인했습니다.
+- 별도의 새 폴더에 clone한 뒤 아래 두 명령을 실행했습니다.
+
+```powershell
+python src/check_environment.py
+python week1/src/check_environment.py
+```
+
+두 명령 모두 Python 3.13.15에서 Python 버전 조건과 1주차 파일 구조 검사를 통과했습니다.
+이 기록은 Git 실습 확인 내용이며, 배경지식 6문항을 포함한 최종 보고서는 별도로 작성해야 합니다.
