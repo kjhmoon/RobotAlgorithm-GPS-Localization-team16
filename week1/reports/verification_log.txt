@@ -28,6 +28,8 @@ Arduino IDE 2.3.10: installed with winget; executable FileVersion 2.3.10 verifie
 
 Fresh clone of initial upload 27b94b5: both environment commands passed.
 
-Report: 6 pages; all six questions, Korean glyph coverage and text bounds checked.
+Report: 5 pages; all six questions, Korean glyph coverage and text bounds checked.
 
 Report images and numeric examples are illustrative, not measured GPS results.
+
+Revision: removed the bibliography and all numeric inline citation markers.

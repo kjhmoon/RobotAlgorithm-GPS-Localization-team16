@@ -25,7 +25,7 @@ GPS 처리 및 필터 코드는 이후 과제 안내에 따라 추가합니다.
 
 ## 보고서
 
-- [제출용 PDF](reports/team16_week1.pdf): 6쪽, Git 실습 결과와 배경지식 6문항
+- [제출용 PDF](reports/team16_week1.pdf): 5쪽, Git 실습 결과와 배경지식 6문항
 - [수정 가능한 원문](reports/team16_week1.md)
 - `reports/figures/`: PRM/RRT, 재표본화, 점유 격자 개념도
 - Arduino IDE 2.3.10 설치 및 실행 파일 버전을 확인했습니다.

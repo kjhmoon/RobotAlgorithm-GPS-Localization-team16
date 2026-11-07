@@ -44,7 +44,7 @@ python week1/src/check_environment.py
 
 ## 보고서 파일과 수정 방법
 
-- [1주차 PDF 보고서](week1/reports/team16_week1.pdf): Git 실습 및 배경지식 6문항, 6쪽
+- [1주차 PDF 보고서](week1/reports/team16_week1.pdf): Git 실습 및 배경지식 6문항, 5쪽
 - [수정 가능한 보고서 원문](week1/reports/team16_week1.md)
 - `week1/reports/figures/`: 직접 작성한 설명용 개념도 3개
 
