@@ -7,7 +7,7 @@
 - 팀 번호: 16
 - GitHub ID: kjhmoon
 - 저장소 이름: `RobotAlgorithm-GPS-Localization-team16`
-- 현재 단계: 기본 파일 업로드 및 clone 검증 완료, 1주차 보고서 작성 준비
+- 현재 단계: 1주차 보고서 작성 및 개발 환경 확인 완료
 
 ## 실행
 
@@ -37,10 +37,26 @@ python week1/src/check_environment.py
 - [x] 지정 이름의 GitHub 저장소 생성 및 본인 계정으로 commit/push
 - [x] GitHub 웹페이지에서 업로드 확인
 - [x] 새 폴더에 clone 후 파일과 실행 확인
-- [ ] Arduino IDE 2.x 설치/버전 확인
-- [ ] 아래 배경지식 6문항의 보고서 작성
-- [ ] Git 과정의 실제 결과와 확인 자료를 보고서에 포함
-- [ ] 보고서 이름을 `team16_week1.pdf` 등으로 지정
+- [x] Arduino IDE 2.3.10 설치 및 버전 확인
+- [x] 아래 배경지식 6문항의 보고서 작성
+- [x] Git 과정의 실제 결과와 확인 자료를 보고서에 포함
+- [x] 보고서 이름을 `team16_week1.pdf`로 지정
+
+## 보고서 파일과 수정 방법
+
+- [1주차 PDF 보고서](week1/reports/team16_week1.pdf): Git 실습 및 배경지식 6문항, 6쪽
+- [수정 가능한 보고서 원문](week1/reports/team16_week1.md)
+- `week1/reports/figures/`: 직접 작성한 설명용 개념도 3개
+
+아래 명령은 PDF를 다시 만들 때만 필요합니다. 환경 확인 코드는 추가 설치 없이 실행됩니다.
+저장소 최상위 폴더에서 실행하면 원문을 읽어 그림과 PDF를 갱신합니다.
+
+```powershell
+python -m pip install -r requirements-report.txt
+python tools/build_week1_report.py
+```
+
+한글 글꼴과 라이선스는 `assets/fonts/`에 포함되어 있습니다.
 
 ## 보고서에 답할 문항
 
@@ -53,4 +69,5 @@ python week1/src/check_environment.py
 6. Occupancy grid map의 개념과 센서 측정으로 만드는 방법
 
 GitHub 업로드와 새 폴더 clone 후 실행 검증은 완료했습니다.
-Arduino IDE 확인과 최종 보고서 작성은 아직 남아 있습니다.
+Arduino IDE 2.3.10 설치 및 버전 확인과 보고서 작성도 완료했습니다.
+GPS 데이터 수집, 실제 필터 성능 실험 및 보드 업로드는 이번 1주차 작업 범위에 포함하지 않았습니다.

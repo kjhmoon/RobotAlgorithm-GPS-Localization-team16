@@ -1,0 +1,3 @@
+# Optional: regenerate the report and its original concept figures.
+reportlab>=4.2,<6
+Pillow>=10,<13

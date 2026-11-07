@@ -25,9 +25,23 @@ GPS 처리 및 필터 코드는 이후 과제 안내에 따라 추가합니다.
 
 ## 보고서
 
-`reports/`에 Git 실습 결과와 배경지식 6문항의 보고서를 작성해야 합니다.
-보고서 이름은 `team16_week1.pdf` 등 안내에 맞는 이름을 사용합니다.
-보고서 그림은 `reports/figures/`에 저장합니다.
+- [제출용 PDF](reports/team16_week1.pdf): 6쪽, Git 실습 결과와 배경지식 6문항
+- [수정 가능한 원문](reports/team16_week1.md)
+- `reports/figures/`: PRM/RRT, 재표본화, 점유 격자 개념도
+- Arduino IDE 2.3.10 설치 및 실행 파일 버전을 확인했습니다.
+
+보고서의 수치 예시와 그림은 설명용이며 실제 GPS 성능 실험 결과가 아닙니다.
+
+### 보고서 다시 만들기 (선택)
+
+저장소 최상위 폴더에서 실행합니다. 보고서 생성에만 추가 패키지가 필요합니다.
+
+```powershell
+python -m pip install -r requirements-report.txt
+python tools/build_week1_report.py
+```
+
+한글 글꼴과 라이선스는 `assets/fonts/`에 포함되어 있습니다.
 
 ## Git 실습 확인 기록
 
@@ -44,4 +58,4 @@ python week1/src/check_environment.py
 ```
 
 두 명령 모두 Python 3.13.15에서 Python 버전 조건과 1주차 파일 구조 검사를 통과했습니다.
-이 기록은 Git 실습 확인 내용이며, 배경지식 6문항을 포함한 최종 보고서는 별도로 작성해야 합니다.
+이 기록과 배경지식 6문항을 `reports/team16_week1.pdf`에 정리했습니다.

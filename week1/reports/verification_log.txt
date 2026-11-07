@@ -1,0 +1,33 @@
+Verification record: team 16, 2021245017, GitHub kjhmoon
+
+OS: Windows-11-10.0.26200-SP0
+
+$ git --version
+git version 2.55.0.windows.3
+
+$ python --version
+Python 3.13.15
+
+$ python src/check_environment.py
+Python: 3.13.15
+Python >= 3.10: PASS
+Week 1 structure: PASS
+GitHub upload and Arduino IDE must be checked separately.
+
+$ python week1/src/check_environment.py
+Python: 3.13.15
+Python >= 3.10: PASS
+Week 1 structure: PASS
+GitHub upload and Arduino IDE must be checked separately.
+
+$ git log --reverse --format=%h %an <%ae> %s
+27b94b5 공지혁 <163113764+kjhmoon@users.noreply.github.com> Set up team 16 week 1 project structure
+e687bc5 공지혁 <163113764+kjhmoon@users.noreply.github.com> Document GitHub upload and fresh-clone verification
+
+Arduino IDE 2.3.10: installed with winget; executable FileVersion 2.3.10 verified.
+
+Fresh clone of initial upload 27b94b5: both environment commands passed.
+
+Report: 6 pages; all six questions, Korean glyph coverage and text bounds checked.
+
+Report images and numeric examples are illustrative, not measured GPS results.
